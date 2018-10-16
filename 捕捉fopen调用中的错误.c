@@ -5,7 +5,7 @@
 #define MYFILE "missing.txt"
 
 int main(){
-    FILE *fin;
+    FILE *fin;//文件指针
 
     fin = fopen(MYFILE,"r");
 
